@@ -15,7 +15,8 @@ class ChirpController extends Controller
     public function index()
     {
         //
-        return 'Hellow world';
+        // return 'Hellow world';
+        return view('chirps.index');
     }
 
     /**
